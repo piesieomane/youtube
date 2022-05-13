@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+img {
+    cursor: pointer;
+    height: 20px;
+}
+.flex-nav {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+}
+nav{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    background: #fff;
+    position: sticky;
+    top: 0%;
+    justify-content: space-between;
+     z-index: 5; 
+}
+.nav-left {
+    display: flex;
+}
+
+.nav-right>.piesie {
+    width: 36px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-right>img {
+    margin-left: 25px;
+}
+.nav-left>img {
+      margin-right: 25px;
+}
+.nav-left>.icon {
+  width: 90px;
+  height: 60px;  
+}
+.nav-left>.menu-pic {
+    width: 22px;
+}
+.nav-middle>.search-box {
+  border: 1px solid #ccc;
+  margin-right: 12px;
+  padding: 7px 12px;
+  border-radius: 10px;
+  height: 40px;
+}
+.nav-middle>.search-box>input {
+    width: 380px;
+    border: 0;
+    background: transparent;
+    outline: 0;
+}
+.nav-middle>.search-box>img {
+    background-color: aliceblue;
+    
+}
+
+.sidebar  {
+    background-color: rgb(255, 255, 255);
+    width: 16%;
+    height: vh;
+    position:absolute;
+    top:0 ;
+    padding-left: 10px;
+    padding-top: 80px;
+}
+.sidelinks>a{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    width: fit-content;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.sidelinks>a:hover,:focus{
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.sidelinks>a>img {
+    margin-right: 20px;  
+    width: 20px; 
+}
+.subscription {
+    margin-left: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.library {
+    margin-top: 20px;
+}
+.sidelinks>a>p {
+    list-style: none;
+}
+.sidelinks>a:first-child{
+    color: red;
+}
+.sidelinks>hr {
+    width: 85%;
+    height: 0.8px;
+    border: 0;
+    background: #ccc;
+}
+.subscription>a {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: fit-content;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.subscription>a>img {
+    margin-right: 20px;  
+    width: 20px; 
+    border-radius: 50%;
+}
+.subscription>h3 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #5a5a5a;
+}
+.menu-sidebar {
+    width: 5%;
+}
